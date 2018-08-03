@@ -16,11 +16,8 @@ a company from the company form.
 
   .. figure:: https://raw.githubusercontent.com/odoo-cae/odoo-addons-multi-company/10.0/multi_company_base/static/description/res_company_form.png
 
-It adds company fields on the following views : 
-
-* ```res.partner``` : Tree.
-* ```res.users``` : Tree.
-
+It adds company fields on the tree, form and search views, of each model
+if this field is not available.
 
 Credits
 =======
