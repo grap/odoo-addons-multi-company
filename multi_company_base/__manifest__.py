@@ -16,6 +16,9 @@
         'base',
     ],
     'data': [
+        'views/view_ir_property.xml',
+        'views/view_ir_sequence.xml',
+        'views/view_ir_values.xml',
         'views/view_res_company.xml',
         'views/view_res_partner.xml',
         'views/view_res_users.xml',
