@@ -17,3 +17,19 @@ The modules will mainly add :
 
 * Add ```company_id``` field on each form / tree / search view if the field
   is not available.
+
+Credits
+=======
+
+Contributors
+------------
+
+* Julien WESTE
+* Sylvain LE GAL <https://twitter.com/legalsylvain>
+
+Funders
+-------
+
+The development of this module has been financially supported by:
+
+* GRAP, Groupement Régional Alimentaire de Proximité (<http://www.grap.coop>)
