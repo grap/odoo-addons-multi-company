@@ -2,23 +2,19 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=========================
-Manage CAE for CRM Module
-=========================
 
-This module extend Odoo functionnalities, regarding companies features to
-manage CAE (Coopearatives of Activities and Employment) that is a special
-status for french companies.
+==========================
+Multi Company - CRM Module
+==========================
 
-This module is a glue module for the Odoo CRM module.
+This module extend Odoo functionnalities, regarding multi companies features,
+for the CRM module.
 
-Features
---------
+* Adds ``company_id`` fields on the following models ``crm.activity``
+  ``crm.lead.tag``, ``crm.lost.reason``, ``crm.stage``.
 
-* Adds ```company_id``` fields on the following models ```crm.activity```
-  ```crm.lead.tag```, ```crm.lost.reason```, ```crm.stage```.
-
-* Adds company fields on various views.
+* It adds company fields on the tree, form and search views, of each model
+  if this field is not available.
 
 Credits
 =======
@@ -26,4 +22,12 @@ Credits
 Contributors
 ------------
 
+* Julien WESTE
 * Sylvain LE GAL <https://twitter.com/legalsylvain>
+
+Funders
+-------
+
+The development of this module has been financially supported by:
+
+* GRAP, Groupement Régional Alimentaire de Proximité (<http://www.grap.coop>)
