@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/odoo-cae/odoo-addons-multi-company.svg?branch=10.0)](https://travis-ci.org/odoo-cae/odoo-addons-multi-company)
-[![codecov](https://codecov.io/gh/odoo-cae/odoo-addons-multi-company/branch/10.0/graph/badge.svg)](https://codecov.io/gh/odoo-cae/odoo-addons-multi-company)
-[![Coverage Status](https://coveralls.io/repos/github/odoo-cae/odoo-addons-multi-company/badge.svg?branch=10.0)](https://coveralls.io/r/odoo-cae/odoo-addons-multi-company?branch=10.0)
+[![Build Status](https://travis-ci.org/odoo-cae/odoo-addons-multi-company.svg?branch=12.0)](https://travis-ci.org/odoo-cae/odoo-addons-multi-company)
+[![codecov](https://codecov.io/gh/odoo-cae/odoo-addons-multi-company/branch/12.0/graph/badge.svg)](https://codecov.io/gh/odoo-cae/odoo-addons-multi-company)
+[![Coverage Status](https://coveralls.io/repos/github/odoo-cae/odoo-addons-multi-company/badge.svg?branch=12.0)](https://coveralls.io/r/odoo-cae/odoo-addons-multi-company?branch=12.0)
 [![Code Climate](https://codeclimate.com/github/odoo-cae/odoo-addons-multi-company/badges/gpa.svg)](https://codeclimate.com/github/odoo-cae/odoo-addons-multi-company)
 
 
@@ -18,18 +18,17 @@ The modules will mainly add :
 * Add ```company_id``` field on each form / tree / search view if the field
   is not available.
 
-Credits
-=======
+[//]: # (addons)
 
-Contributors
-------------
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
+[multi_company_account](multi_company_account/) | 10.0.1.0.0 | Handle Multi company for Account Module
+[multi_company_base](multi_company_base/) | 10.0.1.0.0 | Handle Multi company for Base Module
+[multi_company_crm](multi_company_crm/) | 10.0.1.0.0 | Handle Multi company for CRM Module
+[multi_company_product](multi_company_product/) | 10.0.1.0.0 | Handle Multi company for Product Module
+[multi_company_sale](multi_company_sale/) | 10.0.1.0.0 | Handle Multi company for Sale Module
+[multi_company_sales_team](multi_company_sales_team/) | 10.0.1.0.0 | Handle Multi company for Sales Team Module
 
-* Julien WESTE
-* Sylvain LE GAL <https://twitter.com/legalsylvain>
-
-Funders
--------
-
-The development of the modules has been financially supported by:
-
-* GRAP, Groupement Régional Alimentaire de Proximité (<http://www.grap.coop>)
+[//]: # (end addons)

@@ -42,14 +42,4 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
         </field>
     </record>
 
-    <record id="crm_activity_multicompany_rule" model="ir.rule">
-        <field name="name" >CRM Activity - Multi Company</field>
-        <field model="ir.model" name="model_id" search="[('model', '=', u'crm.activity')]"/>
-        <field name="domain_force">['|',
-            ('company_id', '=', False),
-            ('company_id', 'child_of', [user.company_id.id])]
-        </field>
-    </record>
-
-
 </odoo>

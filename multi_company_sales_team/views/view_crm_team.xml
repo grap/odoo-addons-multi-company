@@ -12,8 +12,6 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
         <field name="arch" type="xml">
             <field name="name" position="after">
                 <field name="company_id" groups="base.group_multi_company"/>
-            </field>
-            <field name="name" position="after">
                 <filter name="company_id" string="Company" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
             </field>
         </field>
