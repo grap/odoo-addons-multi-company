@@ -1,11 +1,13 @@
-from openerp import _, api, fields, models
+# Copyright (C) 2018 - Today: GRAP (http://www.grap.coop)
+# @author Sylvain LE GAL (https://twitter.com/legalsylvain)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+
+from openerp import _, api, models
 from openerp.exceptions import ValidationError
 
 
 class ResCompany(models.Model):
     _inherit = 'res.company'
-
-    active = fields.Boolean(default=True)
 
     @api.constrains('user_ids')
     def _check_user_ids(self):

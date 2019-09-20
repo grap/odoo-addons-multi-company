@@ -1,13 +1,13 @@
-# coding: utf-8
 # Copyright (C) 2018 - Today: GRAP (http://www.grap.coop)
 # @author Sylvain LE GAL (https://twitter.com/legalsylvain)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from odoo.exceptions import ValidationError
-from odoo.tests.common import TransactionCase
-from ..fix_test import fix_required_field
+from odoo.tests.common import at_install, post_install, TransactionCase
 
 
+@at_install(False)
+@post_install(True)
 class TestModule(TransactionCase):
     """Tests for 'Multi Company - Base' Module"""
 
@@ -19,12 +19,6 @@ class TestModule(TransactionCase):
         self.company_obj = self.env['res.company']
         self.demo_user = self.env.ref('base.user_demo')
         self.main_company = self.env.ref('base.main_company')
-        fix_required_field(self, 'DROP')
-
-    def tearDown(self):
-        self.cr.rollback()
-        fix_required_field(self, 'SET')
-        super(TestModule, self).tearDown()
 
     # Test Section
     def test_01_unlink_user_to_company(self):
