@@ -15,6 +15,7 @@
         'base',
     ],
     'data': [
+        'security/ir_rule.xml',
         'views/view_ir_property.xml',
         'views/view_ir_sequence.xml',
         'views/view_res_company.xml',
