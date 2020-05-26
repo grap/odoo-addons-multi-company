@@ -18,18 +18,29 @@ The modules will mainly add :
 * Add ```company_id``` field on each form / tree / search view if the field
   is not available.
 
-Credits
-=======
+[//]: # (addons)
 
-Contributors
-------------
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
 
-* Julien WESTE
-* Sylvain LE GAL <https://twitter.com/legalsylvain>
+[//]: # (end addons)
 
-Funders
--------
+# Funders
 
 The development of the modules has been financially supported by:
 
-* GRAP, Groupement Régional Alimentaire de Proximité (<http://www.grap.coop>)
+<p align="center">
+   <img src="http://www.grap.coop/wp-content/uploads/2016/11/GRAP.png" width="200"/>
+</p>
+
+GRAP, [Groupement Régional Alimentaire de Proximité](http://www.grap.coop) is a
+french company which brings together activities that sale food products in the
+region Rhône Alpes. We promote organic and local food, social and solidarity
+economy and cooperation.
+
+The GRAP IT Team promote Free Software and developp all the Odoo modules under
+AGPL-3 Licence. You can get find all this modules here :
+* on the [OCA Apps Store](https://odoo-community.org/shop?&search=GRAP)
+* on the [Odoo Apps Store](https://www.odoo.com/apps/modules/browse?author=GRAP).
