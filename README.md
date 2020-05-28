@@ -24,12 +24,12 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[multi_company_account](multi_company_account/) | 10.0.1.0.0 | Handle Multi company for Account Module
-[multi_company_base](multi_company_base/) | 10.0.1.0.0 | Handle Multi company for Base Module
-[multi_company_crm](multi_company_crm/) | 10.0.1.0.0 | Handle Multi company for CRM Module
-[multi_company_product](multi_company_product/) | 10.0.1.0.0 | Handle Multi company for Product Module
-[multi_company_sale](multi_company_sale/) | 10.0.1.0.0 | Handle Multi company for Sale Module
-[multi_company_sales_team](multi_company_sales_team/) | 10.0.1.0.0 | Handle Multi company for Sales Team Module
+[multi_company_account](multi_company_account/) | 12.0.1.0.0 | Handle Multi company for Account Module
+[multi_company_base](multi_company_base/) | 12.0.1.0.0 | Handle Multi company for Base Module
+[multi_company_crm](multi_company_crm/) | 12.0.1.0.0 | Handle Multi company for CRM Module
+[multi_company_product](multi_company_product/) | 12.0.1.0.0 | Handle Multi company for Product Module
+[multi_company_sale](multi_company_sale/) | 12.0.1.0.0 | Handle Multi company for Sale Module
+[multi_company_sales_team](multi_company_sales_team/) | 12.0.1.0.0 | Handle Multi company for Sales Team Module
 
 [//]: # (end addons)
 
