@@ -4,7 +4,7 @@
 
 {
     'name': 'Multi Company - CRM Module',
-    'version': '12.0.1.0.0',
+    'version': '12.0.1.0.1',
     'category': 'Multi Company',
     'summary': 'Handle Multi company for CRM Module',
     'author': 'GRAP',
