@@ -1,0 +1,33 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * multi_company_barcodes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-19 12:45+0000\n"
+"PO-Revision-Date: 2020-10-19 12:45+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: multi_company_barcodes
+#: model:ir.model,name:multi_company_barcodes.model_barcode_nomenclature
+msgid "Barcode Nomenclature"
+msgstr "Nomenclature de code-barre"
+
+#. module: multi_company_barcodes
+#: model:ir.model,name:multi_company_barcodes.model_barcode_rule
+msgid "Barcode Rule"
+msgstr "Règle de code barre"
+
+#. module: multi_company_barcodes
+#: model:ir.model.fields,field_description:multi_company_barcodes.field_barcode_nomenclature__company_id
+#: model:ir.model.fields,field_description:multi_company_barcodes.field_barcode_rule__company_id
+msgid "Company"
+msgstr "Société"
+
