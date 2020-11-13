@@ -4,7 +4,7 @@
 
 {
     'name': 'Multi Company - Point of Sale Module',
-    'version': '12.0.1.0.1',
+    'version': '12.0.1.0.2',
     'category': 'Multi Company',
     'summary': 'Handle Multi company for Point of Sale Module',
     'author': 'GRAP',
