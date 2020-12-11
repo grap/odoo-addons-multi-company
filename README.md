@@ -25,7 +25,7 @@ Available addons
 addon | version | summary
 --- | --- | ---
 [multi_company_account](multi_company_account/) | 12.0.1.0.1 | Handle Multi company for Account Module
-[multi_company_barcodes](multi_company_barcodes/) | 12.0.1.0.2 | Handle Multi company for Barcodes Module
+[multi_company_barcodes](multi_company_barcodes/) | 12.0.1.0.3 | Handle Multi company for Barcodes Module
 [multi_company_base](multi_company_base/) | 12.0.1.0.1 | Handle Multi company for Base Module
 [multi_company_crm](multi_company_crm/) | 12.0.1.0.1 | Handle Multi company for CRM Module
 [multi_company_point_of_sale](multi_company_point_of_sale/) | 12.0.1.0.2 | Handle Multi company for Point of Sale Module
