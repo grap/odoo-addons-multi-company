@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from odoo.exceptions import ValidationError
-from odoo.tests.common import at_install, post_install, TransactionCase
+from odoo.tests.common import TransactionCase, at_install, post_install
 
 
 @at_install(False)
