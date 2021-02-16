@@ -4,29 +4,29 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    'name': 'Multi Company - Base Module',
-    'version': '12.0.1.0.1',
-    'category': 'Multi Company',
-    'summary': 'Handle Multi company for Base Module',
-    'author': 'GRAP',
-    'website': 'http://www.grap.coop',
-    'license': 'AGPL-3',
-    'depends': [
-        'base',
+    "name": "Multi Company - Base Module",
+    "version": "12.0.1.0.1",
+    "category": "Multi Company",
+    "summary": "Handle Multi company for Base Module",
+    "author": "GRAP",
+    "website": "http://www.grap.coop",
+    "license": "AGPL-3",
+    "depends": [
+        "base",
     ],
-    'data': [
-        'security/ir_rule.xml',
-        'views/view_ir_property.xml',
-        'views/view_ir_sequence.xml',
-        'views/view_res_company.xml',
-        'views/view_res_partner.xml',
-        'views/view_res_users.xml',
+    "data": [
+        "security/ir_rule.xml",
+        "views/view_ir_property.xml",
+        "views/view_ir_sequence.xml",
+        "views/view_res_company.xml",
+        "views/view_res_partner.xml",
+        "views/view_res_users.xml",
     ],
-    'demo': [
-        'demo/res_groups.xml',
+    "demo": [
+        "demo/res_groups.xml",
     ],
-    'images': [
-        'static/description/res_company_form.png',
+    "images": [
+        "static/description/res_company_form.png",
     ],
-    'installable': True,
+    "installable": True,
 }

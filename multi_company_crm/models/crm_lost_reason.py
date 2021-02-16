@@ -6,8 +6,10 @@ from odoo import fields, models
 
 
 class CrmLostReason(models.Model):
-    _inherit = 'crm.lost.reason'
+    _inherit = "crm.lost.reason"
 
     company_id = fields.Many2one(
-        comodel_name='res.company', string='Company',
-        default=lambda self: self.env.user.company_id)
+        comodel_name="res.company",
+        string="Company",
+        default=lambda self: self.env.user.company_id,
+    )

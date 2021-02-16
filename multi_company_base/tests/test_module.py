@@ -15,32 +15,40 @@ class TestModule(TransactionCase):
     def setUp(self):
         super(TestModule, self).setUp()
 
-        self.user_obj = self.env['res.users']
-        self.company_obj = self.env['res.company']
-        self.demo_user = self.env.ref('base.user_demo')
-        self.main_company = self.env.ref('base.main_company')
+        self.user_obj = self.env["res.users"]
+        self.company_obj = self.env["res.company"]
+        self.demo_user = self.env.ref("base.user_demo")
+        self.main_company = self.env.ref("base.main_company")
 
     # Test Section
     def test_01_unlink_user_to_company(self):
         """[Functional Test] Test if unlinking user from company
         check if the user is currently logged into this company"""
-        new_company = self.company_obj.create({'name': 'Company Test'})
+        new_company = self.company_obj.create({"name": "Company Test"})
         # Add demo users to main and new company
-        self.demo_user.write({
-            'company_ids': [new_company.id, self.main_company.id],
-        })
+        self.demo_user.write(
+            {
+                "company_ids": [new_company.id, self.main_company.id],
+            }
+        )
 
-        no_demo_user_ids = [(
-            6, False,
-            [x.id for x in self.main_company.user_ids if x != self.demo_user])]
+        no_demo_user_ids = [
+            (
+                6,
+                False,
+                [x.id for x in self.main_company.user_ids if x != self.demo_user],
+            )
+        ]
 
         # Remove the non current company to the demo user, should work
         new_company.user_ids = no_demo_user_ids
 
         # Add demo users to main and new company
-        self.demo_user.write({
-            'company_ids': [new_company.id, self.main_company.id],
-        })
+        self.demo_user.write(
+            {
+                "company_ids": [new_company.id, self.main_company.id],
+            }
+        )
 
         # Remove the current company to the demo user, should work
         with self.assertRaises(ValidationError):

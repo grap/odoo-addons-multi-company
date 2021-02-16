@@ -3,19 +3,19 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    'name': 'Multi Company - Sale Module',
-    'version': '12.0.1.0.1',
-    'category': 'Multi Company',
-    'summary': 'Handle Multi company for Sale Module',
-    'author': 'GRAP',
-    'website': 'http://www.grap.coop',
-    'license': 'AGPL-3',
-    'depends': [
-        'multi_company_base',
-        'sale',
+    "name": "Multi Company - Sale Module",
+    "version": "12.0.1.0.1",
+    "category": "Multi Company",
+    "summary": "Handle Multi company for Sale Module",
+    "author": "GRAP",
+    "website": "http://www.grap.coop",
+    "license": "AGPL-3",
+    "depends": [
+        "multi_company_base",
+        "sale",
     ],
-    'data': [
-        'views/view_sale_order.xml',
+    "data": [
+        "views/view_sale_order.xml",
     ],
-    'installable': True,
+    "installable": True,
 }
