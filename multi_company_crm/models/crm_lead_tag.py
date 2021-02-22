@@ -6,8 +6,10 @@ from odoo import fields, models
 
 
 class CrmLeadTag(models.Model):
-    _inherit = 'crm.lead.tag'
+    _inherit = "crm.lead.tag"
 
     company_id = fields.Many2one(
-        comodel_name='res.company', string='Company',
-        default=lambda self: self.env.user.company_id)
+        comodel_name="res.company",
+        string="Company",
+        default=lambda self: self.env.user.company_id,
+    )

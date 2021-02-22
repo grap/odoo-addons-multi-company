@@ -6,8 +6,11 @@ from odoo import fields, models
 
 
 class Barcoderule(models.Model):
-    _inherit = 'barcode.rule'
+    _inherit = "barcode.rule"
 
     company_id = fields.Many2one(
-        comodel_name='res.company', string='Company',
-        related="barcode_nomenclature_id.company_id", store=True)
+        comodel_name="res.company",
+        string="Company",
+        related="barcode_nomenclature_id.company_id",
+        store=True,
+    )

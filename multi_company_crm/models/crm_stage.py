@@ -6,8 +6,10 @@ from odoo import fields, models
 
 
 class CrmStage(models.Model):
-    _inherit = 'crm.stage'
+    _inherit = "crm.stage"
 
     company_id = fields.Many2one(
-        comodel_name='res.company', string='Company',
-        default=lambda self: self.env.user.company_id)
+        comodel_name="res.company",
+        string="Company",
+        default=lambda self: self.env.user.company_id,
+    )
