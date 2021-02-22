@@ -4,7 +4,7 @@
 
 {
     "name": "Multi Company - Product Module",
-    "version": "12.0.1.0.1",
+    "version": "12.0.1.1.0",
     "category": "Multi Company",
     "summary": "Handle Multi company for Product Module",
     "author": "GRAP",
