@@ -16,7 +16,15 @@
     ],
     "data": [
         "security/ir_rule.xml",
+        "security/ir.model.access.csv",
         "views/view_barcode_nomenclature.xml",
+        "views/view_barcode_rule.xml",
+        "views/view_barcode_nomenclature_template.xml",
+        "views/view_barcode_rule_template.xml",
+    ],
+    "demo": [
+        "demo/barcode_nomenclature_template.xml",
+        "demo/barcode_rule_template.xml",
     ],
     "installable": True,
 }
