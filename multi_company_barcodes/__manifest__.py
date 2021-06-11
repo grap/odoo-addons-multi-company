@@ -4,7 +4,7 @@
 
 {
     "name": "Multi Company - Barcodes Module",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.1.1",
     "category": "Multi Company",
     "summary": "Handle Multi company for Barcodes Module",
     "author": "GRAP",
