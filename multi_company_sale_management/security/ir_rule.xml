@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2020 - Today: GRAP (http://www.grap.coop)
+@author: Sylvain LE GAL (https://twitter.com/legalsylvain)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+-->
+<odoo>
+
+    <record id="rule_sale_order_template" model="ir.rule">
+        <field name="name" >Sale Order Template - Multi Company</field>
+        <field name="domain_force">['|',('company_id','=',user.company_id.id),('company_id','=',False)]</field>
+        <field model="ir.model" name="model_id" search="[('model', '=', u'sale.order.template')]"/>
+    </record>
+
+    <record id="rule_sale_order_template_line" model="ir.rule">
+        <field name="name" >Sale Order Template Line - Multi Company</field>
+        <field name="domain_force">['|',('company_id','=',user.company_id.id),('company_id','=',False)]</field>
+        <field model="ir.model" name="model_id" search="[('model', '=', u'sale.order.template.line')]"/>
+    </record>
+
+    <record id="rule_sale_order_template_option" model="ir.rule">
+        <field name="name" >Sale Order Template Option - Multi Company</field>
+        <field name="domain_force">['|',('company_id','=',user.company_id.id),('company_id','=',False)]</field>
+        <field model="ir.model" name="model_id" search="[('model', '=', u'sale.order.template.option')]"/>
+    </record>
+
+</odoo>
