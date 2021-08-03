@@ -4,8 +4,7 @@
 
 
 
-Odoo Addons for Multi Company Context
-=====================================
+# Odoo Addons for Multi Company Context
 
 This project aim to deal with modules related to manage multi company in Odoo.
 
