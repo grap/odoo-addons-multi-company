@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/grap/odoo-addons-multi-company.svg?branch=12.0)](https://travis-ci.org/grap/odoo-addons-multi-company)
+[![Build Status](https://www.travis-ci.com/grap/odoo-addons-multi-company.svg?branch=12.0)](https://www.travis-ci.com/grap/odoo-addons-multi-company)
 [![codecov](https://codecov.io/gh/grap/odoo-addons-multi-company/branch/12.0/graph/badge.svg)](https://codecov.io/gh/grap/odoo-addons-multi-company)
 [![Coverage Status](https://coveralls.io/repos/github/grap/odoo-addons-multi-company/badge.svg?branch=12.0)](https://coveralls.io/github/grap/odoo-addons-multi-company?branch=12.0)
 
