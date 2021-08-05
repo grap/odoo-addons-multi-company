@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [multi_company_point_of_sale](multi_company_point_of_sale/) | 12.0.1.1.0 |  | Handle Multi company for Point of Sale Module
 [multi_company_product](multi_company_product/) | 12.0.1.1.0 |  | Handle Multi company for Product Module
 [multi_company_sale](multi_company_sale/) | 12.0.1.1.0 |  | Handle Multi company for Sale Module
+[multi_company_sale_management](multi_company_sale_management/) | 12.0.1.1.0 |  | Handle Multi company for Sale Management Module
 [multi_company_sales_team](multi_company_sales_team/) | 12.0.1.1.0 |  | Handle Multi company for Sales Team Module
 
 [//]: # (end addons)
