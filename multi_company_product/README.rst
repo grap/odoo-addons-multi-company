@@ -53,8 +53,8 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* Julien WESTE
 * Sylvain LE GAL <https://twitter.com/legalsylvain>
+* Julien WESTE
 
 Other credits
 ~~~~~~~~~~~~~
