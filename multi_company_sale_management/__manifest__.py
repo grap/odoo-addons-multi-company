@@ -4,7 +4,7 @@
 
 {
     "name": "Multi Company - Sale Management Module",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.1.1",
     "category": "Multi Company",
     "summary": "Handle Multi company for Sale Management Module",
     "author": "GRAP",
