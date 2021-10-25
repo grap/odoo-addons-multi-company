@@ -5,7 +5,7 @@
 
 {
     "name": "Multi Company - Account Module",
-    "version": "12.0.1.1.1",
+    "version": "12.0.1.1.2",
     "category": "Multi Company",
     "summary": "Handle Multi company for Account Module",
     "author": "GRAP",
