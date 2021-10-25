@@ -8,7 +8,7 @@
     "category": "Multi Company",
     "summary": "Handle Multi company for Point of Sale Module",
     "author": "GRAP",
-    "website": "http://www.grap.coop",
+    "website": "https://github.com/grap/odoo-addons-multi-company",
     "license": "AGPL-3",
     "depends": [
         "multi_company_base",
