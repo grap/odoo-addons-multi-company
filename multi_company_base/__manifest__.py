@@ -5,7 +5,7 @@
 
 {
     "name": "Multi Company - Base Module",
-    "version": "12.0.1.1.2",
+    "version": "12.0.1.1.3",
     "category": "Multi Company",
     "summary": "Handle Multi company for Base Module",
     "author": "GRAP",
