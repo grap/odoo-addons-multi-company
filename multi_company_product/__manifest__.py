@@ -11,8 +11,9 @@
     "website": "https://github.com/grap/odoo-addons-multi-company",
     "license": "AGPL-3",
     "depends": [
-        "multi_company_base",
         "product",
+        # GRAP
+        "multi_company_base",
     ],
     "data": [
         "views/view_product_template.xml",
