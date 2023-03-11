@@ -1,0 +1,36 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+_commit: 7de0cb5
+_src_path: https://github.com/grap/oca-addons-repo-template-new.git
+ci: GitHub
+dependency_installation_mode: PIP
+generate_requirements_txt: true
+github_check_license: true
+github_ci_extra_env: {}
+github_enable_codecov: true
+github_enable_makepot: false
+github_enable_stale_action: false
+github_enforce_dev_status_compatibility: false
+include_wkhtmltopdf: false
+odoo_real_version: 12.0
+odoo_version: 16.0
+org_name: GRAP
+org_slug: grap
+rebel_module_groups: []
+repo_description: "
+This project aim to deal with modules related to manage multi company in Odoo.
+
+The modules will mainly add :
+
+    - Add a company_id fields on some models.
+
+    - Alter rules to make the access to the model, depending of the current company.
+
+    - Add company_id field on each form / tree / search view if the field is not available.
+
+"
+repo_name:  Odoo Modules that add extra features to make Odoo working in multicompany context 
+repo_slug: odoo-addons-multi-company
+repo_website: https://github.com/grap/odoo-addons-multi-company
+travis_apt_packages: []
+travis_apt_sources: []
+
